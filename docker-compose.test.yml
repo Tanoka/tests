@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  web4:
+    image: app
+    ports:
+      - 5015:5015
+    environment:
+      FLASK_PORT: 5015
+
