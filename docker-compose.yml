@@ -13,9 +13,9 @@ services:
     image: app
     build: .
     ports:
-      - 5005:5005
+      - 5003:5003
     environment:
-      FLASK_PORT: 5005
+      FLASK_PORT: 5003
 
 
 
